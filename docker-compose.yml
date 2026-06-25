@@ -1,0 +1,8 @@
+services:
+  dss:
+    image: dataiku/dss
+    platform: linux/amd64
+    ports:
+      - "10000:10000"
+    volumes:
+      - ./dss:/home/dataiku/dss
