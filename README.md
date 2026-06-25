@@ -1,9 +1,5 @@
 # Dataiku DSS with Docker Compose
 
-## Dev Container について
-
-このリポジトリは VS Code の Dev Container でも利用できる構成を想定しており、開発環境をコンテナ内で整えて利用することができます。
-
 ## 起動方法
 
 ```bash
@@ -15,6 +11,10 @@ docker compose up
 ## ディレクトリ構成
 
 `./dss` ディレクトリがコンテナの `/home/dataiku/dss` にマウントされ、DSS のデータ・設定が永続化される。
+
+## Dev Container について
+
+このリポジトリは VS Code の Dev Container でも利用できる構成を想定しており、開発環境をコンテナ内で整えて利用することができます。
 
 ## Apple Silicon (arm64) での注意点
 
